@@ -15490,3 +15490,12 @@ function danceTiles(tiles) {
         }, (index * DANCE_ANIMATION_DURATION) / 5);
     });
 }
+
+function navigation() {
+    let current = document.getElementById('my-top-nav');
+    if (current.className === 'top-nav') {
+        current.className += ' responsive';
+    } else {
+        current.className = 'top-nav';
+    }
+}
