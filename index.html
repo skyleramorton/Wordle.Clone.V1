@@ -12,7 +12,11 @@
         <title>Wordle-Stackathon</title>
     </head>
     <body>
-        <div class="guess-grid">
+        <div
+            role="alert-content"
+            class="alert-container"
+            data-alert-container></div>
+        <div role="grid-content" data-guess-grid class="guess-grid">
             <div class="tile"></div>
             <div class="tile"></div>
             <div class="tile"></div>
@@ -44,7 +48,7 @@
             <div class="tile"></div>
             <div class="tile"></div>
         </div>
-        <div class="keyboard">
+        <div role="keyboard" data-keyboard class="keyboard">
             <button class="key" data-key="Q">Q</button>
             <button class="key" data-key="W">W</button>
             <button class="key" data-key="E">E</button>
@@ -88,6 +92,7 @@
                 </svg>
             </button>
         </div>
+
         <script src="script.js"></script>
     </body>
 </html>
