@@ -14,3 +14,17 @@ Wordle Clone for Fullstack Academy Stackathon
 5. If you guess the word correctly, you win
 
 ## What I learned
+
+CSS:
+Keyframes
+Transform/Translate
+Flex-Grid
+User-Select
+Pointer Events
+Font-Size: Clamp()
+
+HTML:
+You can define Javascript classes using "data-" prefix (https://blog.webdevsimplified.com/2019-10/do-not-use-class-selectors-in-javascript/)
+
+JS:
+element.add.prepend() => adds element to the beginning of the parent element

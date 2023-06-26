@@ -15394,7 +15394,7 @@ function submitGuess() {
 
 function flipTile(tile, index, array, guess) {
     const letter = tile.dataset.letter;
-    const key = keyboard.querySelector(`[data-key="${letter}"i]`);
+    const key = keyboard.querySelector(`[data-key="${letter}"i]`); //adding "i" ignores casing
     setTimeout(() => {
         tile.classList.add('flip');
     }, (index * FLIP_ANIMATION_DURATION) / 2);
